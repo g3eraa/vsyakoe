@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Data and model artifacts
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.npy
+*.npz
+*.pickle
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+
+# Model outputs / checkpoints
+checkpoints/
+runs/
+artifacts/
+outputs/
+logs/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+experiments/
+results/
+saved_models/
+models/
+weights/
+
+# Training / evaluation caches
+.cache/
+tmp/
+temp/
+*.log
+*.out
+*.err
+*.pid
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+credentials.json
+config_local.py
+*.pem
+*.key
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Optional: keep a few important files tracked
+!requirements.txt
+!pyproject.toml
+!setup.cfg
+!README.md
+!*.example
